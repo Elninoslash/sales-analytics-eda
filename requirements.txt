@@ -1,0 +1,6 @@
+Paste these 5 lines:
+pandas
+numpy
+matplotlib
+seaborn
+jupyter
