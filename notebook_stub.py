@@ -5,7 +5,7 @@ import seaborn as sns
 plt.style.use("seaborn-v0_8")
 
 Load data
-df = pd.read_csv("data/sample_sales.csv", parse_dates=["order_date"])
+df = pd.read_csv("data/sample_sales_200.csv", parse_dates=["order_date"])
 df["revenue"] = df["quantity"] * df["price"]
 df["year_month"] = df["order_date"].dt.to_period("M").astype(str)
 
