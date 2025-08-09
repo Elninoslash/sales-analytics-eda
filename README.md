@@ -52,6 +52,8 @@ Top products by revenue reveal which items contribute most to sales.
 
 Repository structure
 
+notebook_stub.py — temporary script until notebook.ipynb is uploaded.
+
 notebook.ipynb — main analysis.
 
 data/sample_sales.csv — sample dataset used by the notebook.
